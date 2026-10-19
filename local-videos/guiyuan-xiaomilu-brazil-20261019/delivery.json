@@ -1,0 +1,78 @@
+{
+  "title": "归元：小麋鹿·巴西顺拐舞",
+  "source_video_id": "7684495625475466993",
+  "frames": 439,
+  "fps": 30,
+  "duration_seconds": 14.633333333333333,
+  "body": "Local SAM 3D Body / MHR, hand refinement, raw and Gaussian-smoothed capture",
+  "face": "Independent FaceLandmarker; calibrated baseline; gain1; no clip neutralization; blink/lips/jaw unfiltered",
+  "camera": "Fixed fitted full-body camera; source camera not recovered",
+  "technical_qa": "passed",
+  "user_visual_acceptance": "pending",
+  "continuous_playback_and_listening": "not performed",
+  "limits": [
+    "Source omits full calves/feet; their 3D motion is inferred and foot floating remains.",
+    "Wrist/finger depth, knees/pelvis and subtle expression accuracy remain unverified.",
+    "Native mannequin does not reproduce source identity, clothing, pupils, teeth or tongue."
+  ],
+  "resources": {
+    "elapsed_seconds_from_config_save": 786.7929408550262,
+    "measured_stage_wall_seconds_sum": 411.77658700942993,
+    "sampled_gpu_peak_memory_mib": 4289.0,
+    "sampled_task_peak_pss_mib": 5749.625,
+    "sampled_gpu_energy_wh": 21.611888702451196,
+    "energy_integrated_seconds": 567.1874239444733,
+    "samples": {
+      "count": 106,
+      "first_epoch": 1792380516.0979662,
+      "last_epoch": 1792381083.2853901,
+      "requested_interval_seconds": 5,
+      "actual_median_interval_seconds": 5.101139545440674,
+      "capture_end_to_first_sample_seconds": 12.72196626663208,
+      "coverage_note": "Sampling began after SAM3D completed. Preparation, service startup and body inference peaks are unmeasured; no peak values are invented."
+    },
+    "scope_notes": [
+      "GPU measurements cover the entire RTX3090, including baseline/other processes; not exclusively attributable to this run.",
+      "Task RSS/PSS includes this run service, launcher and descendants; sum RSS double-counts shared memory, PSS is preferred.",
+      "CPU core percent 100 means one logical core; short phases may fall between 5-second samples.",
+      "GPU energy is an estimate from sampled whole-board power over covered intervals, including idle; not whole-system power, total run energy or an electricity bill."
+    ]
+  },
+  "files": [
+    {
+      "path": "local-videos/guiyuan-xiaomilu-brazil-20261019/white_model.mp4",
+      "bytes": 1066776,
+      "sha256": "3a03bfb3b75b581da33705ff97cdeb66d32ea91ec3fc2f538d493f535cdefefc"
+    },
+    {
+      "path": "local-videos/guiyuan-xiaomilu-brazil-20261019/source_comparison.mp4",
+      "bytes": 5938699,
+      "sha256": "0e684a79079b5e2e3f374b93a97a9875644ac6efa396319e4d8215a1b73b302d"
+    },
+    {
+      "path": "local-videos/guiyuan-xiaomilu-brazil-20261019/guiyuan_xiaomilu_brazil.blend",
+      "bytes": 31805701,
+      "sha256": "3952519d8d92c57f150dba19b9ef84c44acc824df24359a2e4af6fbc7239c3b4"
+    },
+    {
+      "path": "local-videos/guiyuan-xiaomilu-brazil-20261019/resource_report.txt",
+      "bytes": 1831,
+      "sha256": "bb77493a10d536aa1580d98726fdde768a5ed2f5b9c2025d813baabef8e9c2f5"
+    },
+    {
+      "path": "local-videos/guiyuan-xiaomilu-brazil-20261019/resource_timeline.png",
+      "bytes": 194055,
+      "sha256": "be1eacb1e2befd9ac8e44bb095afe400154c65c5558de485adebc0d3a74dba31"
+    },
+    {
+      "path": "local-videos/guiyuan-xiaomilu-brazil-20261019/stage_times.csv",
+      "bytes": 989,
+      "sha256": "55d3145e5cbb7a6f19e444dfc216162fb5149e1f13df4b7fdb83f0781cc6682f"
+    },
+    {
+      "path": "local-videos/guiyuan-xiaomilu-brazil-20261019/resource_samples.csv",
+      "bytes": 20277,
+      "sha256": "f9cbe6ab2a649d7a205e17578e99f3347de76985f5cdea12d72c04f8443601a3"
+    }
+  ]
+}
