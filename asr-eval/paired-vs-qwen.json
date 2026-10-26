@@ -1,0 +1,146 @@
+{
+  "aishell-SV08": {
+    "delta_cer": 0.016403865717192267,
+    "ci95": [
+      0.011165261922917714,
+      0.022151357251842006
+    ],
+    "clusters": 20,
+    "iterations": 2000,
+    "seed": 20261024,
+    "direction": "candidate CER minus Qwen Q8 CER",
+    "cluster_unit": "speaker"
+  },
+  "aishell-NT08": {
+    "delta_cer": 0.10261953204476093,
+    "ci95": [
+      0.08632777427484803,
+      0.11818171014841142
+    ],
+    "clusters": 20,
+    "iterations": 2000,
+    "seed": 20261024,
+    "direction": "candidate CER minus Qwen Q8 CER",
+    "cluster_unit": "speaker"
+  },
+  "aishell-MM08": {
+    "delta_cer": 0.2903102746693795,
+    "ci95": [
+      0.27076470060854696,
+      0.3085179505310123
+    ],
+    "clusters": 20,
+    "iterations": 2000,
+    "seed": 20261024,
+    "direction": "candidate CER minus Qwen Q8 CER",
+    "cluster_unit": "speaker"
+  },
+  "aishell-MS08": {
+    "delta_cer": 0.0036876907426246185,
+    "ci95": [
+      0.0005128829801591549,
+      0.007051120624527827
+    ],
+    "clusters": 20,
+    "iterations": 2000,
+    "seed": 20261024,
+    "direction": "candidate CER minus Qwen Q8 CER",
+    "cluster_unit": "speaker"
+  },
+  "aishell-GL08": {
+    "delta_cer": 0.0254323499491353,
+    "ci95": [
+      0.015612219513408628,
+      0.036628386400906786
+    ],
+    "clusters": 20,
+    "iterations": 2000,
+    "seed": 20261024,
+    "direction": "candidate CER minus Qwen Q8 CER",
+    "cluster_unit": "speaker"
+  },
+  "aishell-WT08": {
+    "delta_cer": 0.06904883011190234,
+    "ci95": [
+      0.05704368783534419,
+      0.08162792015609475
+    ],
+    "clusters": 20,
+    "iterations": 2000,
+    "seed": 20261024,
+    "direction": "candidate CER minus Qwen Q8 CER",
+    "cluster_unit": "speaker"
+  },
+  "ramc-natural-SV08": {
+    "delta_cer": 0.029186716100023664,
+    "ci95": [
+      0.022558165112422788,
+      0.037027715752986044
+    ],
+    "clusters": 43,
+    "iterations": 2000,
+    "seed": 20261024,
+    "direction": "candidate CER minus Qwen Q8 CER",
+    "cluster_unit": "conversation"
+  },
+  "ramc-natural-NT08": {
+    "delta_cer": 0.10239015539954248,
+    "ci95": [
+      0.08791234437373344,
+      0.1168638320365472
+    ],
+    "clusters": 43,
+    "iterations": 2000,
+    "seed": 20261024,
+    "direction": "candidate CER minus Qwen Q8 CER",
+    "cluster_unit": "conversation"
+  },
+  "ramc-natural-MM08": {
+    "delta_cer": 0.4083773763508717,
+    "ci95": [
+      0.3830735437975012,
+      0.43414300452197074
+    ],
+    "clusters": 43,
+    "iterations": 2000,
+    "seed": 20261024,
+    "direction": "candidate CER minus Qwen Q8 CER",
+    "cluster_unit": "conversation"
+  },
+  "ramc-natural-MS08": {
+    "delta_cer": 0.012857931687307722,
+    "ci95": [
+      0.004980691493374268,
+      0.02298552550776035
+    ],
+    "clusters": 43,
+    "iterations": 2000,
+    "seed": 20261024,
+    "direction": "candidate CER minus Qwen Q8 CER",
+    "cluster_unit": "conversation"
+  },
+  "ramc-natural-GL08": {
+    "delta_cer": 0.016880965528121794,
+    "ci95": [
+      0.010199475072139065,
+      0.024162234714707638
+    ],
+    "clusters": 43,
+    "iterations": 2000,
+    "seed": 20261024,
+    "direction": "candidate CER minus Qwen Q8 CER",
+    "cluster_unit": "conversation"
+  },
+  "ramc-natural-WT08": {
+    "delta_cer": 0.12392521890037075,
+    "ci95": [
+      0.10610437674135775,
+      0.14388833828146305
+    ],
+    "clusters": 43,
+    "iterations": 2000,
+    "seed": 20261024,
+    "direction": "candidate CER minus Qwen Q8 CER",
+    "cluster_unit": "conversation"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "status": "VERIFIED_COMPLETE_WITH_RECOGNITION_FAILURES",
+  "completed_configurations": 12,
+  "expected_configurations": 12,
+  "verified_new_records": 8784,
+  "recognition_failed_utterances": 1,
+  "successful_native_recognitions": 8783,
+  "expected_new_records": 8784,
+  "historical_q8_records_rechecked": 2928,
+  "historical_hf_records_rechecked": 2928,
+  "preserved_files": 172,
+  "independent_edit_distance": true,
+  "audio_model_runtime_sha256": true,
+  "harness_sources": [
+    {
+      "path": "scripts/remaining_cpu_offline.py",
+      "bytes": 9034,
+      "sha256": "7af8575b3941f327cadcf13f5452e6eaeca4ed3c1d55dd06e51b059f988afa4d"
+    },
+    {
+      "path": "src/asr_eval/remaining_engines.py",
+      "bytes": 7183,
+      "sha256": "de53e16fffc4af46182c066b4e62939326f63d04c4adb840c098da0042a77dfb"
+    },
+    {
+      "path": "src/asr_eval/remaining_protocol.py",
+      "bytes": 2837,
+      "sha256": "238e628c9961d173643573d878468587bb98ff694623161d8958863d87fd2d4b"
+    },
+    {
+      "path": "src/asr_eval/mms_int8.py",
+      "bytes": 501,
+      "sha256": "1772bf194ff0d1700c5460eb6c2ed5b9f5705a43326233c04d9c887cc42f0bd9"
+    }
+  ],
+  "exact_frozen_coverage": true,
+  "native_termination_reset": true,
+  "missing": [],
+  "excluded_failed_run": "runs/remaining-q8-aishell-NT08-cpu-t4-int8-offline",
+  "excluded_interrupted_run": "runs/remaining-q8-aishell-MS08-cpu-t4-int8-offline",
+  "excluded_glm_utf8_failed_run": "runs/remaining-q8-aishell-GL08-cpu-t4-int8-offline",
+  "excluded_glm_wsl_interrupted_run": "runs/remaining-q8v2-aishell-GL08-cpu-t4-int8-offline",
+  "runs": {
+    "remaining-q8-aishell-SV08-cpu-t4-int8-offline": {
+      "config.json": "8c20d3e52abe9874fe126cf381abdc258a1b0b3b1215a50387ae7d445e9d836e",
+      "summary.json": "46c32ad65b9be73ddee2f315c88c6aa4a52afeecb711bc5ddde4cfd887b5b4e3",
+      "utterances.jsonl": "14df1ec3143aa12c80fea190c05357cb2e2bd09db3c7df8daa2b5ad96c51a265"
+    },
+    "remaining-q8v2-aishell-NT08-cpu-t4-int8-offline": {
+      "config.json": "4d3269ca39e98a0b08044ca746a30eeb6652da6126cdc45824d82b5d57b6236f",
+      "summary.json": "9b0dc4f93aaad60ffd8daad243e37716a68d6412163a24e6dd80acea59ac9bd2",
+      "utterances.jsonl": "bfdbb167a77770aff5d306f36175c9ecc64092b6a56223ce5ffb92e0517e4b3e"
+    },
+    "remaining-q8-aishell-MM08-cpu-t4-int8-offline": {
+      "config.json": "1ab8533dbb24860ee7e1505d6c399e41d039b3152e2b3de7cede3ddc0e11dfe6",
+      "summary.json": "1ef5f2f540a5b273d69d26c204d4c105a87d35fafa3d1baec651b6735b14a37b",
+      "utterances.jsonl": "74988ded4ed2fa7ef127addd94d6d152db540598c234aaa4d4c65182e266c92c"
+    },
+    "remaining-q8r2-aishell-MS08-cpu-t4-int8-offline": {
+      "config.json": "d25580d63442507829cb6affbbbbee18f2631f8c26361d40de805a766c4a3b75",
+      "summary.json": "6bacfc5fab6f286b7df60d482a351d5adae617cbb00c604e64fbde293c142e0b",
+      "utterances.jsonl": "c7cc2c773cd2f0d4704081109b07adcbd59514bf46f8b7269eb84e8c86d8dba4"
+    },
+    "remaining-q8v3-aishell-GL08-cpu-t4-int8-offline": {
+      "config.json": "c6ca6ee130d45e5032cfc04d4a58af558ecd0f89c0c71996800f2f906d0e57e3",
+      "summary.json": "3f38700f96177509f02b0be9b6b6a0ead2966b334ada7bee722c21cbcbc30028",
+      "utterances.jsonl": "4c434b66b20ab6055511598511e6b3e0d717ab13c291b04314a3e32b133ec0ec"
+    },
+    "remaining-q8-aishell-WT08-cpu-t4-int8-offline": {
+      "config.json": "a33725e37db80e36282fcef91a6de0c4effcec6c6bf2f57bbaf56abb859f40c7",
+      "summary.json": "f35edfffc737644c732ffd20ef7f39b28e653c8da56f18a93e59c819537cdf39",
+      "utterances.jsonl": "c7b76ed7426cbecd308a6e73569d1f98c399b2dcbec4ad3a4b89b0cfdd60ee39"
+    },
+    "remaining-q8-ramc-natural-SV08-cpu-t4-int8-offline": {
+      "config.json": "4e5acb547e879cf8fb742a80fc5e495db74c3ae3859992949f6c1f5509458017",
+      "summary.json": "e154d2f51b13782110eda827edf8c8e4fcc743255d2ede0b80d0d25fd79849e0",
+      "utterances.jsonl": "d623aa72f0e04c6f75c7b8f3f758cd9588e38c0d764e409a09b5bfebeda95ea9"
+    },
+    "remaining-q8v2-ramc-natural-NT08-cpu-t4-int8-offline": {
+      "config.json": "dc4e729ada86ab217899592f96289b8923555966ae8543c388541617daa2e7d0",
+      "summary.json": "b4891914840a00eda9839328546cc088f60b2e682181cdd0f426e051817a7dcb",
+      "utterances.jsonl": "2b1dd28c3aa47cb9a77c4545ce230f90315567eba8231d4bbe1e4d5cf0219c8f"
+    },
+    "remaining-q8-ramc-natural-MM08-cpu-t4-int8-offline": {
+      "config.json": "8d327ad4ac02816417634588a361f3935578673482b33797af6fe7e6df52a1d6",
+      "summary.json": "a5a5dc8af8af337db155aac63d835651fb0d03d4b9089d545589d42b3eeefdef",
+      "utterances.jsonl": "24f6153b4eae735d3c65331ac5f3afdfebe9b5dabaefa6608372f08d1cd2282a"
+    },
+    "remaining-q8-ramc-natural-MS08-cpu-t4-int8-offline": {
+      "config.json": "ab78a7d46b5d0bc08f236a606a4a312c9111adf84e1341faed4c850a4ba7abba",
+      "summary.json": "d514de916e5ed1d7241418c035fb7e3deb477aa3d5ed20ac1b231e5cd49c055c",
+      "utterances.jsonl": "88356134fa58e6ba691c683808879f5fd37eb12e786e6fd97f9af14cdd656c48"
+    },
+    "remaining-q8v3-ramc-natural-GL08-cpu-t4-int8-offline": {
+      "config.json": "50f9cf2f73d1d36222cf98d31a5c729e498506b6859fd273723589b9ea22a24e",
+      "summary.json": "9652bd985603f60c4d3fd85ba7b4a2257c92d5257c3359c8873dfb1ed3e08ef8",
+      "utterances.jsonl": "00314e77453c6cf0d56cdfa60e6d45548d3377895e66dd94ea493e4f65548c13"
+    },
+    "remaining-q8-ramc-natural-WT08-cpu-t4-int8-offline": {
+      "config.json": "a3ee24cbecfff922a66aeb0bd7c92a7270b6d8a5a5923f788003e56742f5de44",
+      "summary.json": "b56d5f05cad01027f8cd18ca221bdb92f1a9185cd4b0508ac7914cf7497b3aa1",
+      "utterances.jsonl": "03df44e3bef0230bf429748634d5b7f021a0a6c90ca1fda32728384b146abf1e"
+    }
+  }
+}
