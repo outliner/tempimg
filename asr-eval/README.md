@@ -140,3 +140,14 @@ python scripts/remaining_cpu_offline.py \
   --model NT08 --manifest data/aishell1-45min/manifest.jsonl --tag your-new-tag
 python scripts/report_remaining_asr.py
 ```
+
+## Windows 本机补充测量（2026-10-26）
+
+以下结果使用 Intel Core i7-1165G7、Windows x64、llama.cpp b11889，CPU 4 线程，经 HTTP API 串行运行；分别计时，各自 warmup 一条，模型启动和 warmup 不计入。每条请求后采样 RSS。与上方 EPYC/WSL2 主表分开呈现。
+
+| 测试集 | 条数 | 推理耗时 | RTF | CER | 采样峰值 RSS |
+|---|---:|---:|---:|---:|---:|
+| AISHELL-1 45min | 531 | 1072.570 s | 0.397 | 1.8820% | 1524.2 MiB |
+| MagicData-RAMC 45min | 933 | 1396.895 s | 0.5172 | 8.3853% | 1103.9 MiB |
+
+清单 SHA-256 与上方数据集相同。完整口径见 [Windows 本机测试说明](local-qwen3-asr-2026-10-26.md)，原始指标见 [AISHELL JSON](local-qwen3-asr-2026-10-26-aishell.json) 和 [RAMC JSON](local-qwen3-asr-2026-10-26-ramc.json)。本机 CER 与主表接近，速度不能直接比较归因：硬件、系统及 HTTP 计时路径均不同。

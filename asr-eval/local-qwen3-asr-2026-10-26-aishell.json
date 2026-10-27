@@ -1,0 +1,22 @@
+{
+  "model": "Qwen3-ASR-0.6B Q8_0",
+  "runtime": "llama.cpp b11889 Windows CPU x64",
+  "dataset": "AISHELL-1 test, 45 min subset",
+  "manifest_sha256": "702e57057178c14385722c854adfe4dfe17e1e0f1595f459eacbdfb0c60353e9",
+  "utterances": 531,
+  "audio_s": 2701.839,
+  "measured_s": 1072.57,
+  "rtf": 0.397,
+  "realtime_speed": 2.52,
+  "cer": 0.01882,
+  "reference_chars": 7864,
+  "empty_hypotheses": 0,
+  "request_errors": 0,
+  "mean_cpu_percent_of_one_core": 363.8,
+  "peak_rss_mib_sampled": 1524.2,
+  "cpu_threads": 4,
+  "parallel_slots": 1,
+  "context_tokens": 4096,
+  "warmup_utterances": 1,
+  "cache_prompt": false
+}

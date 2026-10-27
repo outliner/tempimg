@@ -1,0 +1,22 @@
+{
+  "model": "Qwen3-ASR-0.6B Q8_0",
+  "runtime": "llama.cpp b11889 Windows CPU x64",
+  "dataset": "MagicData-RAMC test, 45 min natural speech subset",
+  "manifest_sha256": "f3b7a023b52c3384875b40a9a41431e778cbd58b711037f689fc1064b9e88739",
+  "utterances": 933,
+  "audio_s": 2700.797,
+  "measured_s": 1396.895,
+  "rtf": 0.5172,
+  "realtime_speed": 1.93,
+  "cer": 0.083853,
+  "reference_chars": 12677,
+  "empty_hypotheses": 0,
+  "request_errors": 0,
+  "mean_cpu_percent_of_one_core": 367.2,
+  "peak_rss_mib_sampled": 1103.9,
+  "cpu_threads": 4,
+  "parallel_slots": 1,
+  "context_tokens": 4096,
+  "warmup_utterances": 1,
+  "cache_prompt": false
+}
